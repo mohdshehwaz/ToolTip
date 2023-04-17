@@ -1,0 +1,65 @@
+.main-div{
+    margin-top: 200px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+   
+    position: relative;
+  
+}
+.main-div button{
+    color: red;
+    height: 40px;
+    border: 1px solid lightgray;
+}
+.left{
+    background: goldenrod;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: -80%;
+    top: 8%;
+}
+.right{
+    background: goldenrod;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: -80%;
+    top: 8%;
+}
+.top{
+    background: goldenrod;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 12%;
+    top: -80%;
+}
+.bottom{
+    background: goldenrod;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 12%;
+    bottom: -80%;
+}
+.hide{
+    display: none;
+}
